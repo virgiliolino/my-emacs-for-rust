@@ -3,9 +3,19 @@
 Working heavily with Visual Studio Code and RUST I found some limitations about this IDE. Or better about its integration with the rust lsp-mode.
 So I switched back to my previous editor, added a couple of improvements, it is just amazing.
 
-I'm pushing my ideal configuration so that in the future I don't loose it. Most of the things you find here are taken from the amazin:
+I'm pushing my ideal configuration so that in the future I don't loose it. Most of the things you find here are taken from the amazing:
 
 https://github.com/rksm/emacs-rust-config
+
+I did some changes, put some config together in order to help me start faster on a new configuration.
+In order to make it work  clone to a specific folder:
+#+begin_src shell
+git clone git@github.com:virgiliolino/my-emacs-for-rust.git ~/resources-emacs
+#+end_src
+
+then start with ~/resources-emacs/emacs.sh
+
+Why I'm not just overwriting the original .emacs.d folder? Well I personally like to try it fast if everything works fine.
 
 * .emacs.d config for Rust
 
@@ -24,10 +34,8 @@ This accompanies my [[https://robert.kra.hn/posts/2021-02-07_rust-with-emacs/]["
 
 The actual configuration lives in [[./init.el][init.el]]. Feel free to copy and paste as you see fit.
 
-To run emacs with just this config, clone this repo, then:
-
 #+begin_src shell
-emacs -q --load "/path/to/standalone.el"
+emacs -q --load "/resources-emacs/standalone.el"
 #+end_src
 
 ** License
