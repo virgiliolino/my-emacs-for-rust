@@ -3,7 +3,10 @@
 Working heavily with Visual Studio Code and RUST I found some limitations about this IDE. Or better about its integration with the rust lsp-mode.
 So I switched back to my previous editor, added a couple of improvements, it is just amazing.
 
-I'm pushing my ideal configuration so that in the future I don't loose it. Most of the things you find here are taken from the amazing:
+I would actually suggest you to just download init.el to your ~/.emacs.d folder.
+the first time you start you could get some errors some packages must be installed. If I have time I will ensure this config works without any normal intervention.
+
+I'm pushing my previous ideal configuration so that in the future I don't loose it. Most of the things you find here are taken from the amazing:
 
 https://github.com/rksm/emacs-rust-config
 
